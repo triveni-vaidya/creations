@@ -975,3 +975,21 @@ a:hover {
   margin-top:-32px;
   margin-left:37px;
 }
+.nav .dropdown-content li {
+      border-bottom: 1px solid #ffffff4d;
+      padding: 0 0;
+      width: 100%;
+      margin: 0;
+  }
+.nav .dropdown-content li a {
+      border: none;
+      margin: 0;
+      height: auto;
+      line-height: 1;
+      padding: 12px 20px;
+      box-sizing: border-box;
+      width: 100%;
+  }
+.nav .dropdown-content li a:hover {
+      background: black;
+  }
