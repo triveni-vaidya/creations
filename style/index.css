@@ -465,6 +465,7 @@ a:hover {
   line-height: 1.4;
   font-weight: 400;
   margin: 0px auto;
+  word-spacing: 10px;
 }
 .clients {
   width:200px;
