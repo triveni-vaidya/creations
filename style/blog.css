@@ -1,0 +1,476 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	overflow-x:hidden;
+}
+.wrapper {
+	background-image:url(../images/section-14.jpg);
+	background-size:cover;
+	background-position:center;
+	width:1329px;
+	height:630px;
+	padding:10px;
+	margin: 0px auto;
+}
+.header {
+	width:1266px;
+	height:110px;
+	padding:10px;
+	margin: 0px auto;
+}
+.logo {
+	margin-top:-10px;
+	width:140px;
+	height:114px;
+	margin-left:-13px;
+}
+.nav {
+	float:right;
+	margin:0px auto;
+	margin-top:-92px;
+	width:516px;
+	height:50px;
+}
+ul li {
+	float:right;
+	list-style:none;
+	margin: 0px auto;
+	margin-top:-10px;
+	font-size:medium;
+	font-weight:lighter;
+	font-family: 'Encode Sans Condensed', sans-serif;
+	letter-spacing:3px;
+	text-decoration:none;
+	padding:13px;
+}
+a:link {
+	text-decoration:none;
+	color:black;
+}
+a:visited {
+	color:black;
+}
+a:hover {
+	color:#999;
+}
+.dropbtn {
+	color: #272727;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+}
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #272626;
+	min-width: 200px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	margin-top: 13px;
+	margin-left:-16px;
+}
+.dropdown-content a {
+	color: #ddd;
+	padding: 0px 1px 0px 12px;
+	text-decoration: none;
+	display: block;
+	border-top: 1px solid #383838;
+	font-size: 10px;
+	font-family: "Dosis", sans-serif;
+	margin-top:-3px;
+	word-spacing:1px;
+	text-align:left;
+	width:175px;
+	height:20px;
+	line-height: 30px;
+}
+.dropdown-content a:hover {
+	background-color: #222222;
+}
+.dropdown:hover .dropdown-content {
+	display:block;
+}
+.dropdown:hover .dropbtn {
+	background-color: #272727;
+}
+.dropbtn1 {
+	color: #272727;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+}
+.dropdown1 {
+	position: relative;
+	display: inline-block;
+}
+.dropdown-content1 {
+	display: none;
+	position: absolute;
+	background-color: #272626;
+	min-width: 200px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	margin-top: 13px;
+	margin-left:-12px;
+}
+.dropdown-content1 a {
+	color: #ddd;
+	padding: 0px 1px 0px 5px;
+	text-decoration: none;
+	display: block;
+	border-top: 1px solid #383838;
+	font-size: 10px;
+	font-family: "Dosis", sans-serif;
+	margin-top:-3px;
+	margin: 0px auto;
+	word-spacing:1px;
+	text-align:left;
+	width:216px;
+	height:20px;
+	line-height: 30px;
+}
+.dropdown-content1 a:hover {
+	background-color: #222222
+}
+.dropdown1:hover .dropdown-content1 {
+	display:block;
+}
+.dropdown1:hover .dropbtn {
+	background-color: #272727;
+}
+.name {
+	width:747px;
+	height:100px;
+	margin:0px auto;
+	margin-top:118px;
+	text-align:center;
+}
+.title {
+	width:737px;
+	letter-spacing:20px;
+	font-family:'Encode Sans Condensed', sans-serif;
+	font-size: 40px;
+	font-weight:lighter;
+	font-variant:unicase;
+	opacity:0.9;
+	color:#282829;
+}
+.text {
+	margin-top:40px;
+	letter-spacing:8px;
+	font-family:'Encode Sans Condensed', sans-serif;
+	font-size:18pt;
+	font-weight:lighter;
+	font-variant:unicase;
+	opacity:0.9;
+}
+.main {
+	width:1366px;
+	height:700px;
+	margin-top:100px;
+	margin:0px auto;
+}
+.blog1{
+	height:500px;
+	margin-top:88px;
+	margin-left:58px;
+}
+.tool1{
+	background-image:url('../images/blog-4.jpg');
+	background-size:cover;
+	background-position:center;
+	width:380px;
+	height:230px;
+	margin-top:0px;
+	margin-left:0px;
+}
+.c2 p{
+	letter-spacing: 1px;
+	margin: 21px 0 18px;
+	font-family: "Dosis", sans-serif;
+	text-transform: uppercase;
+	font-size:10px;
+	line-height:15px;
+}
+.c2 h2{
+	font-family:monospace;
+	font-size:30px;
+	text-transform:uppercase;
+	font-weight: lighter;
+	letter-spacing:2px;
+	line-height:29px;
+
+}
+.c2 span{
+	letter-spacing:1px;
+	text-transform:capitalize;
+	font-family: 'Encode Sans Condensed', sans-serif;
+	font-size:15px;
+	line-height:25px;
+}
+.tool1:hover{
+	opacity:0.5;
+}
+.blog2{
+	height: 500px;
+	margin-top: -501px;
+	margin-left: 485px;
+}
+.tool2{
+	background-image:url('../images/blog-wide-1.jpg');
+	background-size:cover;
+	background-position:center;
+	width:380px;
+	height:400px;
+}
+.c3 p{
+	letter-spacing: 1px;
+	margin: 21px 0 18px;
+	font-family: "Dosis", sans-serif;
+	text-transform: uppercase;
+	font-size:10px;
+	line-height:15px;
+}
+.c3 h2{
+	font-family:monospace;
+	font-size:30px;
+	text-transform:uppercase;
+	font-weight: lighter;
+	letter-spacing:2px;
+	line-height:29px;
+}
+.c3 span{
+	letter-spacing:1px;
+	text-transform:capitalize;
+	font-family: 'Encode Sans Condensed', sans-serif;
+	font-size:15px;
+	line-height:25px;
+}
+.tool2:hover{
+	opacity:0.5;
+}
+.blog3{
+	height: 500px;
+	margin-top: -501px;
+	margin-left: 912px;
+}
+.c4{
+	padding:10px;
+	margin-top:-10px;
+	margin-left:-6px;
+}
+.tool3{
+	background-image:url('../images/blog-2.jpg');
+	background-size:cover;
+	background-position:center;
+	width:380px;
+	height:230px;
+}
+.c4 p{
+	letter-spacing: 1px;
+	margin: 21px 0 18px;
+	font-family: "Dosis", sans-serif;
+	text-transform: uppercase;
+	font-size:10px;
+	line-height:15px;
+}
+.c4 h2{
+	font-family:monospace;
+	font-size:30px;
+	text-transform:uppercase;
+	font-weight: lighter;
+	letter-spacing:2px;
+	line-height:29px;
+}
+.c4 span{
+	letter-spacing:1px;
+	text-transform:capitalize;
+	font-family: 'Encode Sans Condensed', sans-serif;
+	font-size:15px;
+	line-height:25px;
+}
+.tool3:hover{
+	opacity:0.5;
+}
+.blog4{
+	height: 500px;
+	margin-top: 113px;
+	margin-left: 53px;
+}
+.tool4{
+	background-image:url('../images/blog-wide-2.jpg');
+	background-size:cover;
+	background-position:center;
+	width:380px;
+	height:400px;
+}
+.c5 p{
+	letter-spacing: 1px;
+	margin: 21px 0 18px;
+	font-family: "Dosis", sans-serif;
+	text-transform: uppercase;
+	font-size:10px;
+	line-height:15px;
+}
+.c5 h2{
+	font-family:monospace;
+	font-size:30px;
+	text-transform:uppercase;
+	font-weight: lighter;
+	letter-spacing:2px;
+	line-height:29px;
+}
+.c5 span{
+	letter-spacing:1px;
+	text-transform:capitalize;
+	font-family: 'Encode Sans Condensed', sans-serif;
+	font-size:15px;
+	line-height:25px;
+}
+.tool4:hover{
+	opacity:0.5;
+}
+.blog5{
+	height: 500px;
+	margin-top: -333px;
+	margin-left: 482px;
+}
+.tool5{
+	background-image:url('../images/blog-5.jpg');
+	background-size:cover;
+	background-position:center;
+	width:380px;
+	height:230px;
+}
+.c6 p{
+	letter-spacing: 1px;
+	margin: 21px 0 18px;
+	font-family: "Dosis", sans-serif;
+	text-transform: uppercase;
+	font-size:10px;
+	line-height:15px;
+}
+.c6 h2{
+	font-family:monospace;
+	font-size:30px;
+	text-transform:uppercase;
+	font-weight: lighter;
+	letter-spacing:2px;
+	line-height:29px;
+}
+.c6 span{
+	letter-spacing:1px;
+	text-transform:capitalize;
+	font-family: 'Encode Sans Condensed', sans-serif;
+	font-size:15px;
+	line-height:25px;
+}
+.tool5:hover{
+	opacity:0.5;
+}
+.blog6{
+	height: 500px;
+	margin-top: -673px;
+	margin-left: 914px;
+}
+.tool6{
+	background-image:url('../images/blog-wide-3.jpg');
+	background-size:cover;
+	background-position:center;
+	width:380px;
+	height:400px;
+}
+.c7 p{
+	letter-spacing: 1px;
+	margin: 21px 0 18px;
+	font-family: "Dosis", sans-serif;
+	text-transform: uppercase;
+	font-size:10px;
+	line-height:15px;
+}
+.c7 h2{
+	font-family:monospace;
+	font-size:30px;
+	text-transform:uppercase;
+	font-weight: lighter;
+	letter-spacing:2px;
+	line-height:29px;
+}
+.c7 span{
+	letter-spacing:1px;
+	text-transform:capitalize;
+	font-family: 'Encode Sans Condensed', sans-serif;
+	font-size:15px;
+	line-height:25px;
+}
+.tool6:hover{
+	opacity:0.5;
+}
+.footer{
+	background:#f7f7f7;
+	width:100%;
+	height:180px;
+	padding:10px;
+	margin: 0px auto;
+	margin-top:800px;
+	letter-spacing:2px;
+}
+.logos{
+	margin: 0px auto;
+	width: 400px;
+}
+.logo1{
+	margin-top:44px;
+	margin-left:18px;
+}
+.logo2{
+	margin-top:-65px;
+	margin-left:106px;
+}
+.logo3{
+	margin-top:-63px;
+	margin-left:198px;
+}
+.logo4{
+	margin-top:-65px;
+	margin-left:292px;
+}
+.footer span{
+	margin-top:-79px;
+	margin: 0px auto;
+	width:10px;
+	height:50px;
+}
+.footer h5{
+	font-size:14px;
+	font-family: 'Encode Sans Condensed', sans-serif;
+	margin-top:-17px;
+	margin-left:104px;
+	font-weight:lighter;
+}
+.copy{
+	margin-top:16px;
+	margin-left:57px;
+}
+.copy p{
+	font-size:14px;
+	font-family: 'Encode Sans Condensed', sans-serif;
+	margin-top:-32px;
+	margin-left:37px;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	overflow-x:hidden;
+}

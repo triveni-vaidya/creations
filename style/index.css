@@ -1,0 +1,976 @@
+*  {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+body {
+  overflow-x:hidden;
+}
+.header {
+  background-image:url('../images/2.jpg');
+  background-size:cover;
+  background-position:center;
+  width:1328px;
+  height:700px;
+  padding:10px;
+  margin: 0px auto;
+}
+.navbar {
+  width:1266px;
+  height:110px;
+  padding:10px;
+  margin: 0px auto;
+}
+.logo {
+  margin-top:-10px;
+  width:140px;
+  height:114px;
+  margin-left:-13px;
+}
+.nav {
+  float:right;
+  margin:0px auto;
+  margin-top:-92px;
+  width:516px;
+  height:50px;
+}
+ul li {
+  float:right;
+  list-style:none;
+  margin: 0px auto;
+  margin-top:-10px;
+  font-size:medium;
+  font-weight:lighter;
+  font-family: 'Encode Sans Condensed', sans-serif;
+  letter-spacing:3px;
+  text-decoration:none;
+  padding:13px;
+}
+a:link {
+  text-decoration:none;
+  color:black;
+}
+a:visited {
+  color:black;
+}
+a:hover {
+  color:#999;
+}
+.name {
+  width:631px;
+  height:100px;
+  margin:0px auto;
+  margin-top:-94px;
+}
+.title {
+  width:737px;
+  margin-top: 250px;
+  letter-spacing:33px;
+  font-family:'Encode Sans Condensed', sans-serif;
+  font-size: 42px;
+  font-weight:lighter;
+  font-variant:unicase;
+  color:#282829;
+}
+.text {
+  margin: 0px auto;
+  margin-top: 43px;
+  letter-spacing:8px;
+  font-family:'Encode Sans Condensed', sans-serif;
+  font-size:15pt;
+  font-weight:lighter;
+  font-variant:unicase;
+  text-align: center;
+}
+.dropbtn {
+  color: #272727;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #272626;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-top: 13px;
+  margin-left:-16px;
+}
+.dropdown-content a {
+  color: #ddd;
+  padding: 0px 1px 0px 12px;
+  text-decoration: none;
+  display: block;
+  border-top: 1px solid #383838;
+  font-size: 10px;
+  font-family: "Dosis", sans-serif;
+  margin-top:-3px;
+  word-spacing:1px;
+  text-align:left;
+  width:175px;
+  height:20px;
+  line-height: 30px;
+}
+.dropdown-content a:hover {
+  background-color: #222222;
+}
+.dropdown:hover .dropdown-content {
+  display:block;
+}
+.dropdown:hover .dropbtn {
+  background-color: #272727;
+}
+.dropbtn1 {
+  color: #272727;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown1 {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: #272626;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-top: 13px;
+  margin-left:-12px;
+}
+.dropdown-content1 a {
+  color: #ddd;
+  padding: 0px 1px 0px 5px;
+  text-decoration: none;
+  display: block;
+  border-top: 1px solid #383838;
+  font-size: 10px;
+  font-family: "Dosis", sans-serif;
+  margin-top:-3px;
+  margin: 0px auto;
+  word-spacing:1px;
+  text-align:left;
+  width:216px;
+  height:20px;
+  line-height: 30px;
+}
+.dropdown-content1 a:hover {
+  background-color: #222222
+}
+.dropdown1:hover .dropdown-content1 {
+  display:block;
+}
+.dropdown1:hover .dropbtn {
+  background-color: #272727;
+}
+.portfolio_grid {
+  width:1328px;
+  height:1000px;
+  margin:0px auto;
+  margin-top:95px;
+}
+.middlenav {
+  width:530px;
+  height:74px;
+  margin: 0px auto;
+  margin-top:0px;
+}
+.header2 ul li {
+  font-size:medium;
+  font-weight:lighter;
+  font-family: 'Encode Sans Condensed', sans-serif;
+  letter-spacing:3px;
+  word-spacing:20px;
+  margin: 0px auto;
+  margin-top:12px;
+}
+.a:hover {
+  color:#999;
+}
+.a:link {
+  text-decoration:none;
+  color:black;
+}
+.portfolio_img1 {
+  width:272px;
+  height:269px;
+  margin-top:1px;
+  margin-left:50px;
+  padding:5px;
+}
+.portfolio_img1 {
+  background-image:url('../images/img-9.jpg');
+  width:272px;
+  height:269px;
+  background-size:cover;
+  margin-top: 63px;
+  padding:5px;
+}
+.portfolio_img1:hover {
+  opacity:0.5;
+}
+/* relevant styles */
+.img__wrap {
+  position: relative;
+  height: 272px;
+  width: 268px;
+}
+.img__description_layer {
+  margin: 0px auto;
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:14px;
+  letter-spacing:2px;
+  text-align:center;
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+.img__description span {
+  font-size:20px;
+  letter-spacing:3px;
+  font-family: 'Encode Sans Condensed', sans-serif;
+}
+.img__wrap:hover .img__description_layer {
+  visibility: visible;
+  opacity: 1;
+ }
+.img__description {
+  transition: .2s;
+  transform: translateY(1em);
+  color:black;
+  margin-top:115px;
+}
+.img__wrap:hover .img__description {
+  transform: translateY(0);
+ }
+.portfolio_img2 {
+  width:272px;
+  height:269px;
+  margin-top:-269px;
+  margin-left:369px;
+  padding:5px;
+}
+.portfolio_img2 {
+  background-image:url(../images/img-2-2.jpg);
+  width:272px;
+  height:269px;
+  background-size:cover;
+  padding:5px;
+  margin-top: -279px;
+}
+.portfolio_img2:hover {
+  opacity:0.5;
+}
+.portfolio_img3 {
+  margin-top:-279px;
+  margin-left:688px;
+}
+.portfolio_img3 {
+  background-image:url('../images/img-3-2.jpg');
+  width:272px;
+  height:269px;
+  background-size:cover;
+  padding:5px;
+}
+.portfolio_img3:hover {
+  opacity:0.5;
+}
+.portfolio_img4 {
+  margin-top:-279px;
+  margin-left:1007px;
+}
+.portfolio_img4 {
+  background-image:url('../images/img-4-1.jpg');
+  width:272px;
+  height:269px;
+  background-size:cover;
+  padding:5px;
+}
+.portfolio_img4:hover {
+  opacity:0.5;
+}
+.portfolio_img5 {
+  margin-top:36px;
+  margin-left:49px;
+}
+.portfolio_img5 {
+  background-image:url('../images/img-5-2.jpg');
+  width:272px;
+  height:269px;
+  background-size:cover;
+  padding:5px;
+}
+.portfolio_img5:hover {
+  opacity:0.5;
+}
+.portfolio_img6 {
+  margin-top:-279px;
+  margin-left:370px;
+}
+.portfolio_img6 {
+  background-image:url('../images/img-4-2.jpg');
+  width:272px;
+  height:269px;
+  background-size:cover;
+  padding:5px;
+}
+.portfolio_img6:hover {
+	opacity:0.5;
+}
+.portfolio_img7 {
+  margin-top:-279px;
+  margin-left:690px;
+}
+.portfolio_img7 {
+  background-image:url('../images/img-7.jpg');
+  width:591px;
+  height:269px;
+  background-size:cover;
+  padding:5px;
+}
+.portfolio_img7:hover {
+  opacity:0.5;
+}
+.img__wrap2 {
+  position: relative;
+  height: 272px;
+  width: 591px;
+}
+.img__description_layer2 {
+  margin: 0px auto;
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:14px;
+  letter-spacing:2px;
+  text-align:center;
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+.img__description2 span {
+  font-size:20px;
+  letter-spacing:3px;
+  margin-top:12px;
+  margin: 0px auto;
+  font-family: 'Encode Sans Condensed', sans-serif;
+}
+.img__wrap2:hover .img__description_layer2 {
+  visibility: visible;
+  opacity: 1;
+ }
+.img__description2 {
+  transition: .2s;
+  transform: translateY(1em);
+  color:black;
+  margin-top:115px;
+}
+.img__wrap2:hover .img__description2 {
+  transform: translateY(0);
+}
+.portfolio_img8 {
+  margin-top:37px;
+  margin-left:49px;
+}
+.portfolio_img8 {
+  background-image:url('../images/img-8.jpg');
+  width:272px;
+  height:269px;
+  background-size:cover;
+  padding:5px;
+}
+.portfolio_img8:hover {
+  opacity:0.5;
+}
+.portfolio_img9 {
+  margin-top:-279px;
+  margin-left:371px;
+}
+.portfolio_img9 {
+  background-image:url('../images/img-9.jpg');
+  width:271px;
+  height:269px;
+  background-size:cover;
+  padding:5px;
+}
+.portfolio_img9:hover {
+  opacity:0.5;
+}
+.portfolio_img10 {
+  margin-top:-279px;
+  margin-left:691px;
+}
+.portfolio_img10 {
+  background-image:url('../images/img-10.jpg');
+  width:591px;
+  height:269px;
+  background-size:cover;
+  padding:5px;
+}
+.portfolio_img10:hover {
+  opacity:0.5;
+}
+.visitors_content {
+  background:#f7f7f7;
+  width:100%;
+}
+.visitors {
+  background:#f7f7f7;
+  width:1366px;
+  height:150px;
+  padding:10px;
+  margin: 0px auto;
+  margin-top:150px;
+}
+.coffee {
+  width:200px;
+  height:100px;
+  padding:10px;
+  margin-top:27px;
+  margin-left:37px;
+  text-align:center;
+  font-size: small;
+  font-weight: lighter;
+	font-family: "Dosis", sans-serif;
+  letter-spacing: 3px;
+  word-spacing: 20px;
+  color:#111;
+}
+.coffee p {
+  margin-top:22px;
+  margin: 0px auto;
+  margin-bottom:15px;
+  font-size:20px;
+}
+.coffee span {
+  font-family: "Dosis", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  line-height: 1.4;
+  font-weight: 400;
+  margin: 0px auto;
+}
+.clients {
+  width:200px;
+  height:100px;
+  padding:10px;
+  margin-top:-120px;
+  margin-left:400px;
+  font-size: small;
+  font-weight: lighter;
+  font-family: "Dosis", sans-serif;
+  letter-spacing: 3px;
+  word-spacing: 20px;
+  color:#111;
+  text-align:center;
+}
+.clients p {
+  margin-top:22px;
+  margin: 0px auto;
+  margin-bottom:15px;
+  font-size:20px;
+}
+.clients span {
+  font-family: "Dosis", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  line-height: 1.4;
+  font-weight: 400;
+  margin: 0px auto;
+}
+.photos {
+  width:200px;
+  height:100px;
+  padding:10px;
+  margin-top:-120px;
+  margin-left:742px;
+  font-size: small;
+  font-weight: lighter;
+  font-family: "Dosis", sans-serif;
+  letter-spacing: 3px;
+  word-spacing: 20px;
+  color:#111;
+  text-align:center;
+}
+.photos p {
+  margin-top:22px;
+  margin: 0px auto;
+  margin-bottom:15px;
+  font-size:20px;
+}
+.photos span {
+  font-family: "Dosis", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  line-height: 1.4;
+  font-weight: 400;
+  margin: 0px auto;
+}
+.happyclients {
+  width:200px;
+  height:100px;
+  padding:10px;
+  margin-top:-120px;
+  margin-left:1091px;
+  font-size: small;
+  font-weight: lighter;
+  font-family: "Dosis", sans-serif;
+  letter-spacing: 3px;
+  word-spacing: 20px;
+  color:#111;
+  text-align:center;
+}
+.happyclients p {
+  margin-top:22px;
+  margin: 0px auto;
+  margin-bottom:15px;
+  font-size:20px;
+}
+.happyclients span {
+  font-family: "Dosis", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  line-height: 1.4;
+  font-weight: 400;
+  margin: 0px auto;
+}
+.services_content {
+  width:1328px;
+  height:742px;
+  margin:0px auto;
+  margin-top:145px;
+}
+.services_title {
+  background-position:center;
+  width:400px;
+  height:50px;
+  padding:10px;
+  margin: 0px auto;
+  font-size: 30px;
+  font-family:'Encode Sans Condensed', sans-serif;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align:center;
+}
+.border {
+  width:100px;
+  height:30px;
+  border-top:1px solid black;
+  margin-top:1px;
+  margin-left:611px;
+  margin-right:620px;
+}
+.services_quote {
+  width:500px;
+  height:60px;
+  font-size: 14px;
+  line-height: 25px;
+  margin: 0px auto;
+  margin-top:-7px;
+  text-transform: none;
+  text-align:center;
+  letter-spacing:3px;
+  font-family: 'Encode Sans Condensed', sans-serif;
+  opacity: 0.8;
+}
+.design {
+  width:300px;
+  height:150px;
+  padding:10px;
+  margin-top:85px;
+  margin-left:50px;
+  margin-bottom:100px;
+  line-height:20px;
+  text-align:center;
+}
+.design img {
+  margin-top:0px;
+  margin-left:0px;
+}
+.design p {
+  letter-spacing: 6px;
+  text-align: center;
+  margin: 0px auto;
+  font-family: "Dosis", sans-serif;
+  text-transform: uppercase;
+  font-size:15px;
+  line-height:30px;
+  text-align:center;
+}
+.design span {
+  letter-spacing:2px;
+  text-transform:lowercase;
+  font-family:'Encode Sans Condensed', sans-serif;
+  font-size:15px;
+  margin-top:-72px;
+  opacity: 0.8;
+}
+.customer {
+  width:300px;
+  height:150px;
+  padding:10px;
+  margin: 0px auto;
+  margin-top:-268px;
+  margin-bottom:100px;
+  line-height:20px;
+  text-align:center;
+}
+.customer img {
+  margin-top:0px;
+  margin-left:0px;
+}
+.customer p {
+  letter-spacing: 6px;
+  text-align: center;
+  font-family: "Dosis", sans-serif;
+  text-transform: uppercase;
+  font-size:15px;
+  line-height:35px;
+  margin: 0px auto;
+}
+.customer span {
+  letter-spacing: 2px;
+  text-transform:lowercase;
+  font-family: 'Encode Sans Condensed', sans-serif;
+  font-size:15px;
+  margin-top:59px;
+  opacity: 0.8;
+}
+.response {
+  width:300px;
+  height:150px;
+  padding:10px;
+  margin: 0px auto;
+  margin-top:-267px;
+  margin-left:963px;
+  line-height:20px;
+  text-align:center;
+}
+.response img {
+  margin-top:0px;
+  margin-left:7px;
+}
+.response p {
+  letter-spacing: 6px;
+  text-align: center;
+  margin: 0px auto;
+  font-family: "Dosis", sans-serif;
+  text-transform: uppercase;
+  font-size:15px;
+  line-height:35px;
+}
+.response span {
+  letter-spacing: 2px;
+  text-transform:lowercase;
+  font-family: 'Encode Sans Condensed', sans-serif;
+  font-size:15px;
+  margin-top:10px;
+  margin: 0px auto;
+  opacity: 0.8;
+}
+.features {
+  width:300px;
+  height:150px;
+  padding:10px;
+  margin-top:81px;
+  margin-left:49px;
+  line-height:20px;
+  text-align:center;
+}
+.features img {
+  margin-top:0px;
+  margin-left:-7px;
+}
+.features p {
+  letter-spacing: 6px;
+  text-align: center;
+  margin: 0px auto;
+  font-family: "Dosis", sans-serif;
+  text-transform: uppercase;
+  font-size:15px;
+  line-height:35px;
+}
+.features span {
+  letter-spacing: 2px;
+  text-transform:lowercase;
+  font-family: 'Encode Sans Condensed', sans-serif;
+  font-size:15px;
+  margin-top:10px;
+  opacity: 0.8;
+}
+.speed {
+  width:300px;
+  height:150px;
+  padding:10px;
+  margin-top:-168px;
+  margin-left:504px;
+  line-height:20px;
+  text-align:center;
+}
+.speed img {
+  margin-top:0px;
+  margin-left:0px;
+}
+.speed p {
+  letter-spacing: 6px;
+  text-align: center;
+  margin: 0px auto;
+  font-family: "Dosis", sans-serif;
+  text-transform: uppercase;
+  font-size:15px;
+  line-height:35px;
+}
+.speed span {
+  letter-spacing: 2px;
+  text-transform:lowercase;
+  font-family: 'Encode Sans Condensed', sans-serif;
+  font-size:15px;
+  margin-top:10px;
+  margin: 0px auto;
+  opacity: 0.8;
+}
+.support {
+  width:300px;
+  height:150px;
+  padding:10px;
+  margin-top:-169px;
+  margin-left:961px;
+  line-height:20px;
+  text-align:center;
+}
+.support img {
+  margin-top:0px;
+  margin-left:0px;
+}
+.support p {
+  letter-spacing: 6px;
+  text-align: center;
+  margin: 0px auto;
+  font-family: "Dosis", sans-serif;
+  text-transform: uppercase;
+  font-size:15px;
+  line-height:35px;
+}
+.support span {
+  letter-spacing: 2px;
+  text-transform:lowercase;
+  font-family: 'Encode Sans Condensed', sans-serif;
+  font-size:15px;
+  margin-top:10px;
+  margin: 0px auto;
+  opacity: 0.8;
+}
+.team {
+  width:1328px;
+  height:742px;
+  margin:0px auto;
+  margin-top:0px;
+}
+.team_heading {
+  width:366px;
+  height:50px;
+  text-align:center;
+  letter-spacing:3px;
+  padding:10px;
+  font-size: 30px;
+  font-family:'Encode Sans Condensed', sans-serif;
+  line-height: 35px;
+  margin: 0px auto;
+  margin-top:88px;
+}
+.border2 {
+  width: 91px;
+  height: 30px;
+  border-top:1px solid black;
+  margin-top:1px;
+  margin-left:616px;
+  margin-right:619px;
+}
+.team_quote {
+  width: 500px;
+  height: 50px;
+  margin: 0px auto;
+  margin-top: -7px;
+  line-height: 25px;
+  font-size: 14px;
+  text-align: center;
+  font-family: 'Encode Sans Condensed', sans-serif;
+  letter-spacing: 3px;
+  opacity: 0.8;
+	}
+.team_name {
+  font-size: 14px;
+  line-height: 37px;
+  margin: 0px auto;
+  margin-top:100px;
+  text-transform: none;
+  text-align:center;
+  letter-spacing:3px;
+  width:1311px;
+  height:466px;
+  padding:10px;
+}
+.team_name p {
+  display: block;
+  font-size: 14px;
+  line-height: 35px;
+  margin: 0px auto;
+  text-transform: none;
+}
+.team_name span {
+  line-height:20px;
+  font-size:14px;
+}
+.team_img1 {
+  background-image:url(../images/team-1.jpg);
+  width:280px;
+  height:328px;
+  margin-top:0px;
+  margin-left:37px;
+  letter-spacing: 6px;
+  background-size:cover;
+}
+.team_designation1 {
+  margin-top:25px;
+  margin-left:-957px;
+  font-size:14px;
+  font-family:'Encode Sans Condensed', sans-serif;
+}
+.team_img1:hover {
+  opacity:0.5;
+}
+.team_img2 {
+  background-image:url(../images/team-2.jpg);
+  width:280px;
+  height:328px;
+  letter-spacing: 6px;
+  margin-top:-427px;
+  margin-left:356px;
+  background-size:cover;
+}
+.team_designation2 {
+  margin-top:25px;
+  margin-left:-316px;
+  font-size:14px;
+  font-family:'Encode Sans Condensed', sans-serif;
+}
+.team_img2 p {
+  margin-top:337px;
+  margin: 0px auto;
+}
+.team_img2:hover {
+  opacity:0.5;
+}
+.team_img3 {
+  background-image:url(../images/team-3.jpg);
+  width:280px;
+  height:328px;
+  margin-top:-427px;
+  margin-left:674px;
+  letter-spacing: 6px;
+  background-size:cover;
+}
+.team_designation3 {
+  margin-top:25px;
+  margin-left:306px;
+  font-size:14px;
+  font-family:'Encode Sans Condensed', sans-serif;
+}
+.team_img3 p {
+  margin-top:337px;
+  margin: 0px auto;
+}
+.team_img3:hover {
+  opacity:0.5;
+}
+.team_img4 {
+  background-image:url(../images/team-4.jpg);
+  width:280px;
+  height:328px;
+  margin-top:-427px;
+  margin-left:989px;
+  letter-spacing: 6px;
+  background-size:cover;
+}
+.team_designation4 {
+  margin-top:25px;
+  margin-left:969px;
+  font-size:14px;
+  font-family:'Encode Sans Condensed', sans-serif;
+}
+.team_img4 p {
+  margin-top:336px;
+  margin: 0px auto;
+}
+.team_img4:hover {
+  opacity:0.5;
+}
+.footer {
+  background:#f7f7f7;
+  width:100%;
+  height:180px;
+  padding:10px;
+  margin: 0px auto;
+  margin-top:80px;
+  letter-spacing:2px;
+}
+.logos {
+  margin: 0px auto;
+  width: 400px;
+ }
+.logo1 {
+  margin-top:44px;
+  margin-left:18px;
+}
+.logo2 {
+  margin-top:-65px;
+  margin-left:106px;
+}
+.logo3 {
+  margin-top:-63px;
+  margin-left:198px;
+}
+.logo4 {
+  margin-top:-65px;
+  margin-left:292px;
+}
+.footer span {
+  margin-top:-79px;
+  margin: 0px auto;
+  width:10px;
+  height:50px;
+}
+.footer h5 {
+  font-size:14px;
+  font-family: 'Encode Sans Condensed', sans-serif;
+  margin-top:-17px;
+  margin-left:104px;
+  font-weight:lighter;
+}
+.copy {
+  margin-top:16px;
+  margin-left:57px;
+}
+.copy p {
+  font-size:14px;
+  font-family: 'Encode Sans Condensed', sans-serif;
+  margin-top:-32px;
+  margin-left:37px;
+}

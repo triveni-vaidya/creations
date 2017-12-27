@@ -1,0 +1,437 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+body {
+  overflow-x:hidden;
+}
+.wrapper {
+  background-image:url('../images/section.jpg');
+  background-size:cover;
+  background-position:center;
+  width:1329px;
+  height:400px;
+  padding:10px;
+  margin: 0px auto;
+}
+.header {
+  width:1266px;
+  height:110px;
+  padding:10px;
+  margin: 0px auto;
+}
+.logo {
+  margin-top:-10px;
+  width:140px;
+  height:114px;
+  margin-left:-13px;
+}
+.nav {
+  float:right;
+  margin:0px auto;
+  margin-top:-92px;
+  width:516px;
+  height:50px;
+}
+ul li {
+  float:right;
+  list-style:none;
+  margin: 0px auto;
+  margin-top:-10px;
+  font-size:medium;
+  font-weight:lighter;
+  font-family: 'Encode Sans Condensed', sans-serif;
+  letter-spacing:3px;
+  text-decoration:none;
+  padding:13px;
+}
+a:link {
+  text-decoration:none;
+  color:black;
+}
+a:visited {
+  color:black;
+}
+a:hover {
+  color:#999;
+}
+.dropbtn {
+  color: #272727;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #272626;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-top: 13px;
+  margin-left:-16px;
+}
+.dropdown-content a {
+  color: #ddd;
+  padding: 0px 1px 0px 12px;
+  text-decoration: none;
+  display: block;
+  border-top: 1px solid #383838;
+  font-size: 10px;
+  font-family: "Dosis", sans-serif;
+  margin-top:-3px;
+  word-spacing:1px;
+  text-align:left;
+  width:175px;
+  height:20px;
+  line-height: 30px;
+}
+.dropdown-content a:hover {
+  background-color: #222222;
+}
+.dropdown:hover .dropdown-content {
+  display:block;
+}
+.dropdown:hover .dropbtn {
+  background-color: #272727;
+}
+.dropbtn1 {
+  color: #272727;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown1 {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: #272626;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-top: 13px;
+  margin-left:-12px;
+}
+.dropdown-content1 a {
+  color: #ddd;
+  padding: 0px 1px 0px 5px;
+  text-decoration: none;
+  display: block;
+  border-top: 1px solid #383838;
+  font-size: 10px;
+  font-family: "Dosis", sans-serif;
+  margin-top:-3px;
+  margin: 0px auto;
+  word-spacing:1px;
+  text-align:left;
+  width:216px;
+  height:20px;
+  line-height: 30px;
+}
+.dropdown-content1 a:hover {
+  background-color: #222222
+}
+.dropdown1:hover .dropdown-content1 {
+  display:block;
+}
+.dropdown1:hover .dropbtn {
+  background-color: #272727;
+}
+.name {
+  width:631px;
+  height:100px;
+  margin-top:-44px;
+  margin-left:407px;
+}
+.title {
+  font-family: 'Encode Sans Condensed', sans-serif;
+  font-weight:lighter;
+  font-variant:unicase;
+  color:#282829;
+  font-size: 26px;
+  letter-spacing: 20px;
+  opacity: 0.8;
+}
+.title p {
+  font-family:'Encode Sans Condensed', sans-serif;
+  font-weight:lighter;
+  font-variant:unicase;
+  color:#282829;
+  font-size: 40px;
+  letter-spacing: 20px;
+  opacity: 0.8;
+  margin-left:125px;
+  margin-top:26px
+}
+.title span {
+  padding:10px;
+  margin-left:-152px;
+  font-size: 25px;
+  letter-spacing: 9px;
+  opacity: 0.6;
+  font-family: 'Encode Sans Condensed', sans-serif;
+  font-weight:lighter;
+}
+.main {
+  width:1328px;
+  height:500px;
+  margin:0px auto;
+  margin-top:120px;
+}
+.get {
+  width:778px;
+  height:30px;
+  margin:0px auto;
+  margin-top:15px;
+  font-family: 'Encode Sans Condensed', sans-serif;
+  font-weight:lighter;
+  font-size: 15px;
+  letter-spacing:5px;
+}
+.g1 {
+  width:263px;
+  height:40px;
+  margin:0px auto;
+  font-family: 'Encode Sans Condensed', sans-serif;
+  font-weight:lighter;
+  font-size: 30px;
+  letter-spacing:3px;
+}
+.get span {
+  margin-left:70px;
+  font-family: "Dosis", sans-serif;
+  font-weight:lighter;
+  font-size: 15px;
+  letter-spacing:5px;
+}
+.box {
+  width:643px;
+  height: 400px;
+  margin-top: -27px;
+  margin-left: 95px;
+}
+.box1 {
+  margin-top: 83px;
+  margin-left: 46px;
+  width:600px;
+  height:400px;
+  padding:10px;
+}
+.form-control {
+  border: 2px solid #eee;
+  height: 30px;
+  width:620px;
+  font-family: "Dosis", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 11px;
+  border-radius: 2px;
+  padding-left: 15px;
+}
+.box2 {
+  margin-left:55px;
+  margin-top:-359px;
+}
+.form-control2 {
+  border: 2px solid #eee;
+  width:620px;
+  height: 30px;
+  font-family: "Dosis", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 11px;
+  padding-left: 15px;
+}
+.box3 {
+  padding: 10px;
+  margin-left: -399px;
+  margin-top: 13px;
+}
+.form-control3 {
+  border: 2px solid #eee;
+  width:620px;
+  height: 100px;
+  font-family: "Dosis", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 11px;
+  margin-left:445px;
+  margin-top:-4px;
+  padding-left: 15px;
+}
+.submit {
+  width:604px;
+  height:49px;
+  padding:10px;
+  margin: 0px auto;
+  margin-left:-257px;
+  margin-bottom: 15px;
+  margin-top:-300px;
+}
+.t {
+  font-family: "Dosis", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 11px;
+  color:black;
+  margin-top:-28px;
+  margin-left:595px;
+}
+.form-control4 {
+  margin-top: 298px;
+  margin-left: 304px;
+  width:637px;
+  height:35px;
+  background-color:rgba(17, 17, 17, 0.16);
+}
+.meet {
+  width: 447px;
+  height: 400px;
+  margin-top: -399px;
+  margin-left: 746px;
+}
+.img {
+  margin-top:-379px;
+  margin-left:816px;
+}
+.say {
+  letter-spacing: 2px;
+  font-size: 15px;
+  margin-top:-34px;
+  margin-left:859px;
+  font-family: 'Encode Sans Condensed', sans-serif;
+}
+.email {
+  letter-spacing: 2px;
+  font-size: 14px;
+  margin-left:1039px;
+  margin-top:22px;
+  font-family: 'Encode Sans Condensed', sans-serif;
+}
+.email span {
+  letter-spacing: 2px;
+  font-size: 11px;
+  margin-left:-178px;
+  margin-top:26px;
+  line-height:0px;
+}
+.email p {
+  letter-spacing: 2px;
+  font-size: 11px;
+  margin-left:-178px;
+  margin-top:16px;
+  line-height:0px;
+ }
+.com {
+  width:600px;
+  height:400px;
+  padding:2px;
+  margin-top:442px;
+  margin-left:611px;
+}
+.img1 {
+  margin-top: -426px;
+  margin-left: 186px;
+}
+.meeting {
+  letter-spacing: 2px;
+  font-size: 15px;
+  margin-top:-45px;
+  margin-left:248px;
+  font-family: 'Encode Sans Condensed', sans-serif;
+}
+.address {
+  letter-spacing: 2px;
+  font-size: 11px;
+  margin-left:416px;
+  margin-top:26px;
+}
+.address span {
+  letter-spacing: 2px;
+  font-size: 11px;
+  margin-left:-167px;
+  margin-top:26px;
+  line-height:5px;
+  font-family: 'Encode Sans Condensed', sans-serif;
+}
+.address p {
+  letter-spacing: 2px;
+  font-size: 11px;
+  margin-left:-168px;
+  margin-top:15px;
+  line-height:1px;
+  font-family: 'Encode Sans Condensed', sans-serif;
+}
+.img2 {
+  margin-top: -713px;
+  margin-left: 974px;
+}
+.map {
+  letter-spacing: 2px;
+  font-size: 14px;
+  margin-top:-31px;
+  margin-left:862px;
+  font-family: 'Encode Sans Condensed', sans-serif;
+}
+.footer {
+  background:#f7f7f7;
+  width:100%;
+  height:180px;
+  padding:10px;
+  margin: 0px auto;
+  margin-top:80px;
+  letter-spacing:2px;
+}
+.logos {
+  margin: 0px auto;
+  width: 400px;
+ }
+.logo1 {
+  margin-top:44px;
+  margin-left:18px;
+}
+.logo2 {
+  margin-top:-65px;
+  margin-left:106px;
+}
+.logo3 {
+  margin-top:-63px;
+  margin-left:198px;
+}
+.logo4 {
+  margin-top:-65px;
+  margin-left:292px;
+}
+.footer span {
+  margin-top:-79px;
+  margin: 0px auto;
+  width:10px;
+  height:50px;
+}
+.footer h5 {
+  font-size:14px;
+  font-family: 'Encode Sans Condensed', sans-serif;
+  margin-top:-17px;
+  margin-left:104px;
+  font-weight:lighter;
+}
+.copy {
+  margin-top:16px;
+  margin-left:57px;
+}
+.copy p {
+  font-size:14px;
+  font-family: 'Encode Sans Condensed', sans-serif;
+  margin-top:-32px;
+  margin-left:37px;
+}
